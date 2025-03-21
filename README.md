@@ -1,15 +1,13 @@
 # WiDS_2025
 # GitHub Kaggle Project README
-
-⚠️ _Remember to update the above title and remove all guidance notes and examples in this template, before finalizing your README_
-
+# WiDS_Team_Dendrites
 ---
 
 ### **👥 Team Members**
 
 | Name | GitHub Handle | Contribution |
 | ----- | ----- | ----- |
-| Alice Doe | @AliceDoe | Built CNN model, performed data augmentation |
+| Ruth Velasquez | @Abillama05 | Built CNN model, performed data cleaning, minor feature engineering |
 | Mel Ramakrishnan | @MelRam | Led EDA, visualized dataset distributions, handled missing data |
 | Charlie Nguyen | @CharlieN | Implemented explainability tools |
 
@@ -17,14 +15,11 @@
 
 ## **🎯 Project Highlights**
 
-**Example:**
-
-* Built a \[insert model type\] using \[techniques used\] to solve \[Kaggle competition task\]
+* Built a PyTorch Convoluted Nueral Network using an Multi Output Model to solve a binary classification of fMRI FCM, categorical, and quantitative data.
 * Achieved an F1 score of \[insert score\] and a ranking of \[insert ranking out of participating teams\] on the final Kaggle Leaderboard
 * Used \[explainability tool\] to interpret model decisions
 * Implemented \[data preprocessing method\] to optimize results within compute constraints
 
-🔗 [Equitable AI for Dermatology | Kaggle Competition Page](https://www.kaggle.com/competitions/bttai-ajl-2025/overview)
 🔗 [WiDS Datathon 2025 | Kaggle Competition Page](https://www.kaggle.com/competitions/widsdatathon2025/overview)
 
 ---
