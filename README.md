@@ -39,11 +39,13 @@
 
 ## **🏗️ Project Overview**
 
-**Describe:**
+This project was developed for the WiDS Datathon 2025, hosted on Kaggle and supported by the Break Through Tech AI Program. Our team, WiDS_Team_Dendrites, collaborated to tackle the challenge of predicting ADHD diagnoses using a combination of functional MRI-derived Functional Connectome Matrices (FCMs) and accompanying categorical and quantitative features.
 
-* The Kaggle competition and its connection to the Break Through Tech AI Program
-* The objective of the challenge
-* The real-world significance of the problem and the potential impact of your work
+The dataset required extensive exploration to understand brain connectivity patterns and their relationship to ADHD. FCMs, which represent the functional connectivity between different brain regions, had to be normalized and resized for modeling—particularly when working with deep learning models like CNNs.
+
+Our initial focus was on understanding the dataset structure, identifying preprocessing requirements, and researching suitable multi-output model architectures. We explored various modeling strategies—including TensorFlow-based CNNs and PyTorch multi-output models—to handle the multi-label classification task efficiently within compute constraints.
+
+This work not only enhanced our technical understanding of neuroimaging and deep learning but also holds real-world significance by contributing to research in ADHD diagnosis and mental health analytics through AI-driven approaches.
 
 ---
 
