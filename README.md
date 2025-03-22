@@ -9,7 +9,7 @@
 | ----- | ----- | ----- |
 | Ruth Velasquez | @Abillama05 | Built CNN model, performed data cleaning, minor feature engineering |
 | Mel Ramakrishnan | @MelRam | Led EDA, visualized dataset distributions, handled missing data |
-| Charlie Nguyen | @CharlieN | Implemented explainability tools |
+| Frantzia Theodat | @FranTheo | Exploratory data analysis |
 
 ---
 
