@@ -7,7 +7,7 @@
 
 | Name | GitHub Handle | Contribution |
 | ----- | ----- | ----- |
-| Ruth Velasquez | @Abillama05 | Built CNN model, performed data cleaning, minor feature engineering |
+| Ruth Velasquez | [@Abillama05](https://github.com/abillama05) | Built CNN model, performed data cleaning, minor feature engineering |
 | Mel Ramakrishnan | @MelRam | Led EDA, visualized dataset distributions, handled missing data |
 | Frantzia Theodat | @FranTheo | Exploratory data analysis |
 | Marzana Afroz | @marzanaafroz | Explored and interpreted the data to guide model selection; researched multi-output TensorFlow CNN approaches |
