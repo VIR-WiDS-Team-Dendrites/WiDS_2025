@@ -8,7 +8,6 @@
 | Name | GitHub Handle | Contribution |
 | ----- | ----- | ----- |
 | Ruth Velasquez | [@Abillama05](https://github.com/abillama05) | Built CNN model, performed data cleaning, minor feature engineering |
-| Mel Ramakrishnan | @MelRam | Led EDA, visualized dataset distributions, handled missing data |
 | Frantzia Theodat | @FranTheo | Exploratory data analysis |
 | Marzana Afroz | @marzanaafroz | Explored and interpreted the data to guide model selection; researched multi-output TensorFlow CNN approaches |
 | Christiana Nardi | @cbekk | Built multi-output regression model, performed data cleaning and analysis, and parameter tuning |
@@ -58,9 +57,18 @@ This work not only enhanced our technical understanding of neuroimaging and deep
 * Data exploration and preprocessing approaches
 * Challenges and assumptions when working with the dataset(s)
 
-**Potential visualizations to include:**
 
-* Plots, charts, heatmaps, feature visualizations, sample dataset images
+** Data Preprocessing Visualizations: **
+<table>
+  <tr>
+    <th>"Track_Age_At_Scan" before imputation</th>
+    <th>"Track_Age_At_Scan" after imputation</th>
+  </tr>
+  <tr>
+    <td><img src="https://github.com/VIR-WiDS-Team-Dendrites/WiDS_2025/blob/cd4e83c8c259a12ea55aa27a92a6534e4ff838c2/Images/b4_impute.png" width="350px"></td>
+    <td><img src="https://github.com/VIR-WiDS-Team-Dendrites/WiDS_2025/blob/cd4e83c8c259a12ea55aa27a92a6534e4ff838c2/Images/after_impute.png" width="350px"></td>
+  </tr>
+</table>
 
 ---
 
