@@ -58,7 +58,7 @@ This work not only enhanced our technical understanding of neuroimaging and deep
 * Challenges and assumptions when working with the dataset(s)
 
 
-** Data Preprocessing Visualizations: **
+### Data Preprocessing Visualizations: 
 <table>
   <tr>
     <th>"Track_Age_At_Scan" before imputation</th>
