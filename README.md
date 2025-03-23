@@ -11,6 +11,7 @@
 | Mel Ramakrishnan | @MelRam | Led EDA, visualized dataset distributions, handled missing data |
 | Frantzia Theodat | @FranTheo | Exploratory data analysis |
 | Marzana Afroz | @marzanaafroz | Explored and interpreted the data to guide model selection; researched multi-output TensorFlow CNN approaches |
+| Christiana Nardi | @cbekk | Built multi-output regression model, performed data cleaning and analysis, and parameter tuning |
 
 ---
 
