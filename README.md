@@ -53,9 +53,17 @@ This work not only enhanced our technical understanding of neuroimaging and deep
 
 **Describe:**
 
-* The dataset(s) used (i.e., the data provided in Kaggle \+ any additional sources)
+* The datasets used were from the WiDS 2025 Kaggle competition.
 * Data exploration and preprocessing approaches
+  
+      1. Fill Null values with a range of random values between the mean and standard deviation.
+      2. Fill Null values in test data with -1 since creating a new value could mess with predictions
+      3. Remove highly correlated features
+      4. Convert fMRI FCM into graph objects
 * Challenges and assumptions when working with the dataset(s)
+  
+      1. Working with fMRI as Functional Connectome Matrices was new for us
+      2. Assumed at first that the training solutions would have no null values but there were a few instances which affected out first model's accuracy
 
 
 ### Data Preprocessing Visualizations: 
@@ -67,6 +75,12 @@ This work not only enhanced our technical understanding of neuroimaging and deep
   <tr>
     <td><img src="https://github.com/VIR-WiDS-Team-Dendrites/WiDS_2025/blob/cd4e83c8c259a12ea55aa27a92a6534e4ff838c2/Images/b4_impute.png" width="350px"></td>
     <td><img src="https://github.com/VIR-WiDS-Team-Dendrites/WiDS_2025/blob/cd4e83c8c259a12ea55aa27a92a6534e4ff838c2/Images/after_impute.png" width="350px"></td>
+  </tr>
+  <tr>
+    <th>Correlation Matrix to find most correlated features</th>
+  </tr>
+  <tr>
+    <td><img src="https://github.com/VIR-WiDS-Team-Dendrites/WiDS_2025/blob/1632d2f5f3eb376257e7824454d8a39afcbe1a58/Images/corr_features.png" width="350px"></td>
   </tr>
 </table>
 
