@@ -34,15 +34,15 @@
   git clone https://github.com/VIR-WiDS-Team-Dendrites/WiDS_2025.git
   cd WiDS_2025
 * How to install dependencies:
-  pip install -r requirements.txt
+  ```pip install -r requirements.txt
 * How to set up the environment
-  python -m venv venv
+  ```python -m venv venv
   source venv/bin/activate  # On macOS/Linux
   venv\Scripts\activate  # On Windows
 * How to access the dataset(s)
   download from competition page: [WiDS Datathon 2025 | Kaggle Competition Page](https://www.kaggle.com/competitions/widsdatathon2025/overview)
 * How to run the notebook or scripts
-  jupyter notebook
+  [jupyter notebook](https://github.com/VIR-WiDS-Team-Dendrites/WiDS_2025/blob/87e8ba0e28797fef6af76da33b2417cff5218c88/JupyterNotebook/76_WiDS.ipynb)
 
 ---
 
