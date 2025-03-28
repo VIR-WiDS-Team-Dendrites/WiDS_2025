@@ -30,10 +30,19 @@
 **Provide step-by-step instructions so someone else can run your code and reproduce your results. Depending on your setup, include:**
 
 * How to clone the repository
-* How to install dependencies
+  ```bash
+  git clone https://github.com/VIR-WiDS-Team-Dendrites/WiDS_2025.git
+  cd WiDS_2025
+* How to install dependencies:
+  pip install -r requirements.txt
 * How to set up the environment
+  python -m venv venv
+  source venv/bin/activate  # On macOS/Linux
+  venv\Scripts\activate  # On Windows
 * How to access the dataset(s)
+  download from competition page: [WiDS Datathon 2025 | Kaggle Competition Page](https://www.kaggle.com/competitions/widsdatathon2025/overview)
 * How to run the notebook or scripts
+  jupyter notebook
 
 ---
 
