@@ -8,9 +8,9 @@
 | Name | GitHub Handle | Contribution |
 | ----- | ----- | ----- |
 | Ruth Velasquez | [@Abillama05](https://github.com/abillama05) | Built CNN model, performed data cleaning, minor feature engineering |
-| Frantzia Theodat | @FranTheo | Exploratory data analysis |
+| Frantzia Theodat | @FranTheo | Exploratory data analysis | 
 | Marzana Afroz | @marzanaafroz | Explored and interpreted the data to guide model selection; researched multi-output TensorFlow CNN approaches |
-| Christiana Nardi | @cbekk | Built multi-output regression model, performed data cleaning and analysis, and parameter tuning |
+| Christiana Nardi | [@cbekk](https://github.com/cbekk) | Built multi-output regression model, performed data cleaning and analysis, and parameter tuning |
 
 ---
 
@@ -136,14 +136,32 @@ Missing values were handled by adding a default float value for the categorical 
 **Address the following:**
 
 * What are some of the limitations of your model?
+  One limitation of our current model was its ability to generalize across unseen data. While it did perform well on the training set and validation data, its   performance may degrade when exposed to more new data. This could be due to the model's reliance on specific patterns present in the training data that   
+  might not be applicable elsewhere.
 * What would you do differently with more time/resources?
-* What additional datasets or techniques would you explore?
+  If we had more time and resources, we might explore other algorithms, such as gradient boosting or support vector machines. We might also try experimenting different models and see if they work better with this task.
+* What additional datasets or techniques would you explore? To further improve the model's performance, we could explore external datasets to enhance the diversity of our data and our model's ability to generalize well.
 
 ---
 
 ## **📄 References & Additional Resources**
 
-* Cite any relevant papers, articles, or tools used in your project
+Pandas: McKinney, W. (2010). Data Structures for Statistical Computing in Python. Proceedings of the 9th Python in Science Conference. Retrieved from https://pandas.pydata.org/
+
+NumPy: Harris, C. R., et al. (2020). Array programming with NumPy. Nature, 585, 357–362. Retrieved from https://numpy.org/
+
+Matplotlib: Hunter, J. D. (2007). Matplotlib: A 2D Graphics Environment. Computing in Science & Engineering, 9(3), 90-95. Retrieved from https://matplotlib.org/
+
+Seaborn: Waskom, M. (2021). Seaborn: Statistical Data Visualization. Journal of Open Source Software, 6(60), 3021. Retrieved from https://seaborn.pydata.org/
+
+Scikit-learn: Pedregosa, F., et al. (2011). Scikit-learn: Machine Learning in Python. Journal of Machine Learning Research, 12, 2825-2830. Retrieved from https://scikit-learn.org/
+
+PyTorch: Paszke, A., et al. (2019). PyTorch: An Imperative Style, High-Performance Deep Learning Library. Advances in Neural Information Processing Systems (NeurIPS). Retrieved from https://pytorch.org/
+
+WiDS Datathon (2025). Title of dataset. Retrieved from https://www.kaggle.com/competitions/widsdatathon2025/data
+
+K-Nearest Neighbors Imputer (KNNImputer) and Principal Component Analysis (PCA) are both provided as part of the scikit-learn library. 
+
 
 ---
 
