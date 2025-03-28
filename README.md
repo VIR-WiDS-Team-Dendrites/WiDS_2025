@@ -30,20 +30,22 @@
 **Provide step-by-step instructions so someone else can run your code and reproduce your results. Depending on your setup, include:**
 
 * How to clone the repository
-  ```bash
+  ```
+  bash
   git clone https://github.com/VIR-WiDS-Team-Dendrites/WiDS_2025.git
   cd WiDS_2025
 * How to install dependencies:
-  ```pip install -r requirements.txt
+  ```
+  pip install pandas numpy scikit-learn matplotlib seaborn torch
 * How to set up the environment
-  ```python -m venv venv
+  ```
+  python -m venv venv
   source venv/bin/activate  # On macOS/Linux
   venv\Scripts\activate  # On Windows
-* How to access the dataset(s)
+* How to access the dataset
   download from competition page: [WiDS Datathon 2025 | Kaggle Competition Page](https://www.kaggle.com/competitions/widsdatathon2025/overview)
-* How to run the notebook or scripts
-  [jupyter notebook](https://github.com/VIR-WiDS-Team-Dendrites/WiDS_2025/blob/87e8ba0e28797fef6af76da33b2417cff5218c88/JupyterNotebook/76_WiDS.ipynb)
-
+* How to run the notebook:
+**Shift + Enter**
 ---
 
 ## **🏗️ Project Overview**
@@ -99,9 +101,10 @@ This work not only enhanced our technical understanding of neuroimaging and deep
 
 **Describe (as applicable):**
 
-* Model(s) used (e.g., CNN with transfer learning, regression models)
-* Feature selection and Hyperparameter tuning strategies
-* Training setup (e.g., % of data for training/validation, evaluation metric, baseline performance)
+* Model used: We used a multi-output feed-forward neural network using PyTorch.
+* Feature selection and Hyperparameter tuning strategies: A correlation matrix was created for the dataset, and highly correlated features were identified and dropped (SDQ_SDQ_Hyperactivity).
+Missing values were handled by adding a default float value for the categorical variables and filling the missing MRI age values with random samples drawn from a normal distribution based on the mean and standard deviation. The network works with one hidden layer of 128 units in the shared branch and 64 units in each output branch. It also is set up at a learning rate of 0.001, batch size of 32, and training for 50 epochs.
+* Training setup: The model’s performance is evaluated using accuracy, confusion matrices, and classification reports (precision, recall, f1-score). 
 
 ---
 
@@ -109,20 +112,17 @@ This work not only enhanced our technical understanding of neuroimaging and deep
 
 **Describe (as applicable):**
 
-* Performance metrics (e.g., Kaggle Leaderboard score, F1-score)
-* How your model performed overall
-* How your model performed across different skin tones (AJL)
-* Insights from evaluating model fairness (AJL)
+* Performance metrics (e.g., Kaggle Leaderboard score, F1-score): On the Kaggle leaderboard, the model performed at 76.319% accuracy.
+* How your model performed overall: The model demonstrated good performance on the training set with both outputs (ADHD and Sex predictions).
+* How your model performed across different skin tones (AJL) N/A
+* Insights from evaluating model fairness (AJL) N/A
 
-**Potential visualizations to include:**
-
-* Confusion matrix, precision-recall curve, feature importance plot, prediction distribution, outputs from fairness or explainability tools
+**Visualizations:**
+ <td><img src="Images/conf_matrix.png" width="350px">
 
 ---
 
 ## **🖼️ Impact Narrative**
-
-**Answer the relevant questions below based on your competition:**
 
 **WiDS challenge:**
 
